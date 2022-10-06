@@ -27,7 +27,7 @@ html{
     position: fixed;
     background-color: transparent;
     width: 100%;
-    padding: 10px 0;
+    padding: 5px 0;
     top: 0;
     z-index: 999;
     transition: .3s linear;
@@ -46,10 +46,12 @@ html{
 }
 
 .logo {
-    width: 60px;
-    height: 60px;
-    background-image: url(../images/white-logo3.png);
+    width: 180px;
+    height: 70px;
+    background-image: url(../images/logo-white2.png);
+    background-repeat: no-repeat;
     background-size: contain;
+    margin-top: 15px;
 }
 
 .menu-toggler {
@@ -90,7 +92,7 @@ html{
 }
 
 .sticky .logo {
-    background-image: url(../images/white-logo.png);
+    background-image: url(../images/logo-white1.png);
 }
 
 .sticky .navbar-menu a {
@@ -128,21 +130,21 @@ html{
 }
 
 #home .content h1::after {
-    content: "  Grupo 4";
+    content: "  GetTech";
     animation: textanim 10s linear infinite;
 }
 
 @keyframes textanim {
     25% {
-        content: " Os desenvolvedores";
+        content: " GetTech";
     }
 
     50% {
-        content: " O melhor equipe";
+        content: " Teu equipe de confiança";
     }
 
     75% {
-        content: " Toters!!";
+        content: " Profissionais de excelência";
     }
 }
 
@@ -167,7 +169,7 @@ html{
     color: #48dbfb;
     font-size: 15px;
     font-weight: 500;
-    width: 180px;
+    width: 200px;
     border: 1px solid #48dbfb;
     padding: 14px 0;
     border-radius: 6px;
@@ -175,7 +177,7 @@ html{
 }
 
 #home .buttons a:hover,
-#home .buttons a:nth-child(2) {
+#home .buttons a:nth-child(1) {
     background-color: #48dbfb;
     color: #fff;
 }
